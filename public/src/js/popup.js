@@ -4,11 +4,23 @@ const COMPONENTS = [{
     link: 'https://odoo.com',
     title: 'Odoo',
     size: 6,
-}, {
+},{
+    icon: 'globe',
+    color: 'primary',
+    link: 'https://www.vauxoo.com',
+    title: 'Vauxoo',
+    size: 6,
+},{
     icon: 'cloud-fill',
     color: 'gray',
-    link: 'https://www.odoo.sh',
+    link: 'https://www.odoo.sh/project',
     title: 'Odoo.sh',
+    size: 6,
+},  {
+    icon: 'patch-question',
+    color: 'danger',
+    link: 'https://www.odoo.com/help',
+    title: 'Odoo support',
     size: 6,
 }, {
     icon: 'robot',
@@ -17,10 +29,10 @@ const COMPONENTS = [{
     title: 'Runbot',
     size: 6,
 }, {
-    icon: 'patch-question',
-    color: 'danger',
-    link: 'https://www.odoo.com/help',
-    title: 'Odoo support',
+    icon: 'robot',
+    color: 'green',
+    link: 'https://runbot.vauxoo.com/runbot',
+    title: 'Runbot Vauxoo',
     size: 6,
 }, {
     icon: 'card-text',
@@ -57,26 +69,67 @@ const COMPONENTS = [{
     }, {
         title: 'Installation',
         link: 'https://www.odoo.com/documentation/15.0/administration.html',
+    }, {
+        title: 'Awesome-Odoo',
+        link: 'https://desdelinux.github.io/awesome-odoo',
     }],
+}, {
+    icon: 'youtube',
+    color: 'pink',
+    title: 'Youtube',
+    size: 12,
+    shortcuts: [{
+        title: 'Odoo',
+        link: 'https://www.youtube.com/c/Odooapps',
+    }, {
+        title: 'Vauxoo',
+        link: 'https://www.youtube.com/c/Vauxoo',
+    }, {
+        title: 'Odoo Mates',
+        link: 'https://www.youtube.com/c/OdooMates',
+    }],
+}, {
+    icon: 'github',
+    color: 'dark',
+    link: 'https://github.com/vauxoo',
+    title: 'Github Vauxoo',
+    size: 6,
+}, {
+    icon: 'git',
+    color: 'dark',
+    link: 'https://git.vauxoo.com',
+    title: 'Gitlab Vauxoo',
+    size: 6,
 }, {
     icon: 'github',
     color: 'dark',
     title: 'Github',
     size: 12,
     shortcuts: [{
-        title: 'Source Code',
+        title: 'Source Code CE',
         link: 'https://github.com/odoo/odoo/tree/master',
         items: {
             '15.0': 'https://github.com/odoo/odoo/tree/15.0',
             '14.0': 'https://github.com/odoo/odoo/tree/14.0',
             '13.0': 'https://github.com/odoo/odoo/tree/13.0',
         }
+    },{
+        title: 'Source Code EE',
+        link: 'https://github.com/odoo/enterprise/tree/master',
+        items: {
+            '15.0': 'https://github.com/odoo/enterprise/tree/15.0',
+            '14.0': 'https://github.com/odoo/enterprise/tree/14.0',
+            '13.0': 'https://github.com/odoo/enterprise/tree/13.0',
+        }
     }, {
-        title: 'Issues',
+        title: 'Issues CE',
         link: 'https://github.com/odoo/odoo/issues',
     }, {
-        title: 'PR',
+        title: 'PR CE',
         link: 'https://github.com/odoo/odoo/pulls',
+    }, {
+        title: 'PR EE',
+        link: 'https://github.com/odoo/enterprise/pulls',
     }],
 }];
 
