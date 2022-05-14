@@ -25,27 +25,27 @@ const COMPONENTS = [{
 }, {
     icon: 'patch-question',
     color: 'danger',
-    link: 'https://www.odoo.com/help',
-    title: 'Odoo support',
+    title: 'Support',
     size: 6,
-}, {
-    icon: 'patch-question',
-    color: 'danger',
-    link: 'https://www.vauxoo.com/en_US/helpdesk',
-    title: 'Vauxoo support',
-    size: 6,
+    shortcuts: [{
+        title: 'Odoo',
+        link: 'https://www.odoo.com/help',
+    }, {
+        title: 'Vauxoo',
+        link: 'https://www.vauxoo.com/en_US/helpdesk',
+    }],
 }, {
     icon: 'robot',
     color: 'green',
-    link: 'https://runbot.odoo.com',
     title: 'Runbot',
     size: 6,
-}, {
-    icon: 'robot',
-    color: 'green',
-    link: 'https://runbot.vauxoo.com/runbot',
-    title: 'Runbot Vauxoo',
-    size: 6,
+    shortcuts: [{
+        title: 'Odoo',
+        link: 'https://runbot.odoo.com',
+    }, {
+        title: 'Vauxoo',
+        link: 'https://runbot.vauxoo.com/runbot',
+    }],
 }, {
     icon: 'robot',
     color: 'green',
