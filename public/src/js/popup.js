@@ -4,23 +4,35 @@ const COMPONENTS = [{
     link: 'https://odoo.com',
     title: 'Odoo',
     size: 6,
-},{
+}, {
     icon: 'globe',
     color: 'primary',
     link: 'https://www.vauxoo.com',
     title: 'Vauxoo',
     size: 6,
-},{
+}, {
     icon: 'cloud-fill',
     color: 'gray',
     link: 'https://www.odoo.sh/project',
     title: 'Odoo.sh',
     size: 6,
-},  {
+}, {
+    icon: 'cloud-fill',
+    color: 'gray',
+    link: 'https://deployv.net/my/projects',
+    title: 'Deployv',
+    size: 6,
+}, {
     icon: 'patch-question',
     color: 'danger',
     link: 'https://www.odoo.com/help',
     title: 'Odoo support',
+    size: 6,
+}, {
+    icon: 'patch-question',
+    color: 'danger',
+    link: 'https://www.vauxoo.com/en_US/helpdesk',
+    title: 'Vauxoo support',
     size: 6,
 }, {
     icon: 'robot',
@@ -33,6 +45,18 @@ const COMPONENTS = [{
     color: 'green',
     link: 'https://runbot.vauxoo.com/runbot',
     title: 'Runbot Vauxoo',
+    size: 6,
+}, {
+    icon: 'robot',
+    color: 'green',
+    link: 'https://downloads.deployv.net/minio/login',
+    title: 'Minio',
+    size: 6,
+}, {
+    icon: 'robot',
+    color: 'green',
+    link: 'https://logs.vauxoo.com',
+    title: 'Graylogs',
     size: 6,
 }, {
     icon: 'card-text',
@@ -113,7 +137,7 @@ const COMPONENTS = [{
             '14.0': 'https://github.com/odoo/odoo/tree/14.0',
             '13.0': 'https://github.com/odoo/odoo/tree/13.0',
         }
-    },{
+    }, {
         title: 'Source Code EE',
         link: 'https://github.com/odoo/enterprise/tree/master',
         items: {
